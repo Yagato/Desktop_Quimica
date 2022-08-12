@@ -204,8 +204,10 @@ public class OrdenesController implements Initializable {
             fileChooser.setTitle("Save");
             fileChooser.getExtensionFilters().addAll(new ExtensionFilter("PDF",  "*.pdf"));
             File file = fileChooser.showSaveDialog(node.getScene().getWindow());
-            PdfController pdf = new PdfController(id, nombre, cantidad);
-            pdf.generatePDF(file.getAbsolutePath());
+            if(file != null) {
+                PdfController pdf = new PdfController(id, nombre, cantidad);
+                pdf.generatePDF(file.getAbsolutePath());
+            }
         }
         catch (Exception e){
             e.printStackTrace();
