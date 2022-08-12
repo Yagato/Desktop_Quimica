@@ -109,7 +109,7 @@ public class PrincipalJefeController implements Initializable {
 
     @FXML
     void paginaUsuario2(ActionEvent event) throws IOException {
-        Parent fxml = FXMLLoader.load(getClass().getResource("/fxml/UsuarioJefe.fxml"));
+        Parent fxml = FXMLLoader.load(getClass().getResource("/fxml/Usuario.fxml"));
         principalPane.getChildren().removeAll();
         principalPane.getChildren().setAll(fxml);
     }

@@ -20,7 +20,7 @@
    <children>
       <ImageView fitHeight="795.0" fitWidth="1142.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../imagenes/Ordenes_e_Inventario-01.jpg" />
+            <Image url="@../imagenes/Ordenes%20e%20Inventario-01.jpg" />
          </image>
       </ImageView>
       <JFXButton fx:id="restablecer" layoutX="463.0" layoutY="510.0" onAction="#btnRestablecer" stylesheets="@../styles/Styles.css" text="Confirmar">
@@ -39,17 +39,17 @@
             <Font name="Open Sans Semibold" size="36.0" />
          </font>
       </Text>
-      <JFXPasswordField focusColor="BLACK" labelFloat="true" layoutX="396.0" layoutY="252.0" prefHeight="25.0" prefWidth="237.0" promptText="Contraseña actual" unFocusColor="BLACK">
+      <JFXPasswordField fx:id="contraActual" focusColor="BLACK" labelFloat="true" layoutX="396.0" layoutY="252.0" prefHeight="25.0" prefWidth="237.0" promptText="Contraseña actual" unFocusColor="BLACK">
          <font>
             <Font name="Roboto" size="18.0" />
          </font>
       </JFXPasswordField>
-      <JFXPasswordField focusColor="BLACK" labelFloat="true" layoutX="397.0" layoutY="334.0" prefHeight="25.0" prefWidth="237.0" promptText="Nueva Contraseña" unFocusColor="BLACK">
+      <JFXPasswordField fx:id="nuevaContra" focusColor="BLACK" labelFloat="true" layoutX="397.0" layoutY="334.0" prefHeight="25.0" prefWidth="237.0" promptText="Nueva Contraseña" unFocusColor="BLACK">
          <font>
             <Font name="Roboto" size="18.0" />
          </font>
       </JFXPasswordField>
-      <JFXPasswordField focusColor="BLACK" labelFloat="true" layoutX="397.0" layoutY="413.0" prefHeight="25.0" prefWidth="237.0" promptText="Confirmar Contraseña" unFocusColor="BLACK">
+      <JFXPasswordField fx:id="confirmarContra" focusColor="BLACK" labelFloat="true" layoutX="397.0" layoutY="413.0" prefHeight="25.0" prefWidth="237.0" promptText="Confirmar Contraseña" unFocusColor="BLACK">
          <font>
             <Font name="Roboto" size="18.0" />
          </font>

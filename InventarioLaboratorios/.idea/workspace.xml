@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0fffb8be-dc3a-4f94-949a-682d3871f94c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/OrdenesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/OrdenesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/inventariolaboratorios/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/inventariolaboratorios/SceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/OrdenesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/OrdenesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/inventariolaboratorios/SceneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/inventariolaboratorios/SceneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/PrincipalJefeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/PrincipalJefeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Usuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Usuario.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/PrincipalJefeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/PrincipalJefeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Usuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/Usuario.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Documents/Programming/Java/Proyecto Escritorio/InventarioLaboratorios/src/main/resources/fonts",
+    "last_opened_file_path": "D:/Documents/Programming/Java/Proyecto Escritorio/InventarioLaboratorios/src/main/resources/fxml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -57,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programming\Java\Proyecto Escritorio\InventarioLaboratorios\src\main\resources\fxml" />
       <recent name="D:\Documents\Programming\Java\Proyecto Escritorio\InventarioLaboratorios\src\main\resources\fonts" />
       <recent name="D:\Documents\Programming\Java\Proyecto Escritorio\InventarioLaboratorios\src\main\resources\imagenes" />
     </key>
