@@ -7,9 +7,12 @@ package Controller;
 
 import Modelos.Productos;
 import Modelos.ReactivoMaterial;
+import com.code.inventariolaboratorios.MainApp;
 import com.jfoenix.controls.JFXTextField;
 import com.jfoenix.controls.JFXTreeTableView;
 import com.jfoenix.controls.RecursiveTreeItem;
+
+import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
@@ -17,12 +20,15 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.TreeTableView;
 import javafx.scene.control.cell.TreeItemPropertyValueFactory;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.FileChooser;
+import javafx.stage.FileChooser.ExtensionFilter;
 
 /**
  * FXML Controller class
@@ -177,7 +183,33 @@ public class OrdenesController implements Initializable {
 
     @FXML
     void pdf(ActionEvent event) {
+        if(listaReactivoMaterial.size() <= 0){
+            System.out.println("Lista vacia");
+            return;
+        }
 
+        String[] id = new String[listaReactivoMaterial.size()];
+        String[] nombre = new String[listaReactivoMaterial.size()];
+        String[] cantidad = new String[listaReactivoMaterial.size()];
+
+        for(int i = 0; i < listaReactivoMaterial.size(); i++){
+            id[i] = listaReactivoMaterial.get(i).getId();
+            nombre[i] = listaReactivoMaterial.get(i).getNombre();
+            cantidad[i] = listaReactivoMaterial.get(i).getCantidad();
+        }
+
+        try{
+            Node node = (Node) event.getSource();
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.setTitle("Save");
+            fileChooser.getExtensionFilters().addAll(new ExtensionFilter("PDF",  "*.pdf"));
+            File file = fileChooser.showSaveDialog(node.getScene().getWindow());
+            PdfController pdf = new PdfController(id, nombre, cantidad);
+            pdf.generatePDF(file.getAbsolutePath());
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 }

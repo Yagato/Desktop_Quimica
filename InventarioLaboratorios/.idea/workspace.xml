@@ -5,24 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fffb8be-dc3a-4f94-949a-682d3871f94c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Informacion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Informacion.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/InformacionJefe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/InformacionJefe.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Inventario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Inventario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/InventarioJefe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/InventarioJefe.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Ordenes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Ordenes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/PrincipalJefe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/PrincipalJefe.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Usuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Usuario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/UsuarioJefe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/UsuarioJefe.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagenes/Ordenes e Inventario-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/imagenes/Ordenes_e_Inventario-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/imagenes/cerrar sesion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/imagenes/cerrar_sesion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/OrdenesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/OrdenesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/OrdenesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/OrdenesController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,21 +37,30 @@
     </option>
   </component>
   <component name="ProjectId" id="29MGUZq4PlHaPiX63cLUoQCRLmL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ludwi/OneDrive/PROYECTO RESIDENCIA/InventarioLaboratorios&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Documents/Programming/Java/Proyecto Escritorio/InventarioLaboratorios/src/main/resources/fonts",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programming\Java\Proyecto Escritorio\InventarioLaboratorios\src\main\resources\fonts" />
+      <recent name="D:\Documents\Programming\Java\Proyecto Escritorio\InventarioLaboratorios\src\main\resources\imagenes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.code.inventariolaboratorios.MainApp" />
